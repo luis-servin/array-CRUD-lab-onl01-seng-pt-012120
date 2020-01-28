@@ -7,9 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  students_2020 = ["Luis", "Cristina"]
-  students_2020 << "Tim"
-  puts students_2020.inspect
+  students = ["Luis", "Cristina"]
+  students << "Tim"
+  puts students.inspect
 end
 
 def add_element_to_start_of_array(array, element)
