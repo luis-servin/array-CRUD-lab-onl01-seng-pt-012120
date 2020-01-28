@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  students = ["Luis", "Cristina", "Valerie", "Tim"]
-  students_2020 << "element"
+  students = ["Luis", "Cristina"]
+  students_2020 << "Tim"
   puts students_2020.inspect
 end
 
